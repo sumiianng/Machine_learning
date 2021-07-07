@@ -5,7 +5,7 @@ from GMM import GMM
 
 img = Image.open('data/scenery.jpg')
 
-ks = [5, 7, 10]
+ks = [3, 5, 7, 10]
 for k in ks:
     print(f"========== k = {k} ==============")
     print("========== K_means start =========")
